@@ -1,0 +1,12 @@
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\MangaLibrary.Shared.csproj.AssemblyReference.cache
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\MangaLibrary.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\MangaLibrary.Shared.AssemblyInfoInputs.cache
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\MangaLibrary.Shared.AssemblyInfo.cs
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\MangaLibrary.Shared.csproj.CoreCompileInputs.cache
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\bin\Debug\net6.0\MangaLibrary.Shared.deps.json
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\bin\Debug\net6.0\MangaLibrary.Shared.dll
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\bin\Debug\net6.0\MangaLibrary.Shared.pdb
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\MangaLibrary.Shared.dll
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\refint\MangaLibrary.Shared.dll
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\MangaLibrary.Shared.pdb
+D:\Other\C#\MangaLibrary\MangaLibrary\Shared\obj\Debug\net6.0\ref\MangaLibrary.Shared.dll

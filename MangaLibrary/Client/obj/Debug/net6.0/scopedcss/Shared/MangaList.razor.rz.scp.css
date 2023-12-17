@@ -1,0 +1,194 @@
+:root[b-zjtq4yanag] {
+    --color-white: #E3E3E3;
+    --color-gray: #2c2c2c;
+    --color-black: #16150E;
+    --color-text: #f0f0f0;
+    --color-background: #0D0C0C;
+    --color-primary: #F42536;
+    --color-secondary: #616161;
+    --color-accent: #724BE7;
+}
+
+.box[b-zjtq4yanag] {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+}
+
+h4[b-zjtq4yanag] {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card[b-zjtq4yanag] {
+    display: flex;
+    width: 100%;
+    max-height: 418px;
+    max-width: 240px;
+    position: relative;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    border: solid 3px transparent;
+    transition: border 200ms;
+}
+
+    .card:hover[b-zjtq4yanag] {
+        border-color: #575252ff;
+        transition: border 50ms;
+    }
+
+.favorite[b-zjtq4yanag] {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 17px;
+    height: 16px;
+    border: 1px solid #f0f0f016;
+    background-color: #e3e3e328;
+    padding: 2px;
+    fill: #f42536e6;
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: 150ms;
+    box-shadow: 0 0 2px 2px #4c4c4c32;
+}
+
+    .favorite:hover[b-zjtq4yanag] {
+        fill: #f42536f0;
+        border-color: #f0f0f034;
+        background-color: #ff596736;
+        box-shadow: 0 0 2px 2px #4c4c4c64;
+    }
+
+    .favorite:active[b-zjtq4yanag] {
+        transition: 10ms;
+        fill: #f0f0f0f0;
+        border-color: #ff596732;
+        background-color: #ff596742;
+    }
+
+.bookmark[b-zjtq4yanag] {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 17px;
+    height: 16px;
+    border: 1px solid #f0f0f016;
+    background-color: #e3e3e328;
+    padding: 2px;
+    fill: #5eebaef0;
+    transform: scale(1.5);
+    cursor: pointer;
+    transition: 150ms;
+    box-shadow: 0 0 2px 2px #4c4c4c32;
+}
+
+    .bookmark:hover[b-zjtq4yanag] {
+        fill: #63ff9b;
+        border-color: #f0f0f034;
+        background-color: #5eebae36;
+        box-shadow: 0 0 2px 2px #4c4c4c64;
+    }
+
+    .bookmark:active[b-zjtq4yanag] {
+        transition: 10ms;
+        fill: #f0f0f0f0;
+        border-color: #5eebae32;
+        background-color: #5eebae42;
+    }
+
+.card-poster[b-zjtq4yanag] {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: var(--color-secondary);
+}
+
+.card-panel[b-zjtq4yanag] {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    position: absolute;
+    background: rgba(0,0,0,.8);
+    bottom: 0;
+    padding-top: 8px;
+}
+
+.card-title[b-zjtq4yanag] {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 6px;
+    margin-right: auto;
+    max-width: 7rem;
+    transition: max-width .5s;
+    cursor: help;
+}
+    .card-title:hover[b-zjtq4yanag] {
+        transition-delay: .5s;
+        max-width: 100%;
+    }
+
+.title-english[b-zjtq4yanag], .title-japanese[b-zjtq4yanag], .title-romaji[b-zjtq4yanag] {
+    color: #fafafa;
+    font-weight: 400;
+    margin: 0;
+    line-height: 12px;
+    text-shadow: 0 1px 2px black;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.title-japanese[b-zjtq4yanag] {
+    color: #aaa;
+    font-size: 9px;
+}
+
+.card-right-side[b-zjtq4yanag] {
+    display: flex;
+    opacity: 100%;
+    align-items: center;
+    margin-right: 8px;
+    transition: opacity .1s;
+}
+
+#titles:hover + .card-right-side[b-zjtq4yanag] {
+    transition-delay: .6s;
+    opacity: 0;
+}
+
+.rating-score[b-zjtq4yanag] {
+    fill: #95111C;
+    font-size: 19px;
+    text-align: right;
+    line-height: 12px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.card-rating[b-zjtq4yanag] {
+    margin-left: 1px;
+}
+
+.see-more[b-zjtq4yanag] {
+    transform: scale(1.2);
+    text-align: center;
+    fill: #f0f0f07d;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+    .see-more:hover[b-zjtq4yanag] {
+        fill: var(--color-white);
+    }
+
+    .see-more:active[b-zjtq4yanag] {
+        fill: #f0f0f07d;
+    }

@@ -1,0 +1,20 @@
+﻿@page "/"
+@page "/search/{query}"
+@inject MangaService Service
+
+<PageTitle>Manga</PageTitle>
+
+<h1>MangaLibrary V3</h1>
+
+<MangaList />
+
+@code {
+    [Parameter]
+    public string? Query { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (Query is not null && Query.Length > 3) await Service.Search(Query);
+        else await Service.GetMangas();
+    }
+}

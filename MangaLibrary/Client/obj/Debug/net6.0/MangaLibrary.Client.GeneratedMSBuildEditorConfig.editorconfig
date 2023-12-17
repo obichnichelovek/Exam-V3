@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = MangaLibrary.Client
+build_property.RootNamespace = MangaLibrary.Client
+build_property.ProjectDir = D:\Other\C#\MangaLibrary\MangaLibrary\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Other\C#\MangaLibrary\MangaLibrary\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Pages/AddManga.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTWFuZ2EucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-4z03izg5iw
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Pages/AdvancedSearch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWR2YW5jZWRTZWFyY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zudbuow1jq
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Pages/AuthorMangas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yTWFuZ2FzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-6knvldf5vo
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Pages/MangaDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuZ2FEZXRhaWxzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rxuuytxyy0
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wx88a4czl9
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Shared/MangaList.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1hbmdhTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zjtq4yanag
+
+[D:/Other/C\#/MangaLibrary/MangaLibrary/Client/Shared/Search.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qukdrwza1m

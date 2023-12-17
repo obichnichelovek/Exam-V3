@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MangaLibrary.Client.props" />
+</Project>

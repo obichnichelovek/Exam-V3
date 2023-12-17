@@ -1,0 +1,106 @@
+.box[b-4z03izg5iw] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr[b-4z03izg5iw] {
+    width: 80%;
+    border-color: #44444491;
+}
+
+.elem[b-4z03izg5iw] {
+    background-color: #1D1C1Cff;
+    border: 1px solid #2D2C2Cff;
+    outline: none;
+    color: #c0c0c0;
+    padding: 4px;
+    transition: .5s;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+    .elem:hover[b-4z03izg5iw], .elem:focus[b-4z03izg5iw] {
+        transition: .4s;
+        background-color: #2D2C2Cff;
+        border-color: #3D3C3Cff;
+        color: #f0f0f0;
+    }
+
+.search input[b-4z03izg5iw] {
+    width: 50%;
+    font-size: 16px;
+    padding-left: 6px;
+}
+
+select[b-4z03izg5iw] {
+    width: 120px;
+    border-right: none;
+}
+
+.tag-container[b-4z03izg5iw] {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+}
+
+.default[b-4z03izg5iw] {
+    background-color: #1D1C1Cff;
+    border: 1px solid #2D2C2Cff;
+    padding: 2px;
+    color: #c0c0c0;
+    margin: 2px;
+    transition: .5s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+    .default:hover[b-4z03izg5iw] {
+        background-color: #2D2C2Cff;
+        border: 1px solid #3D3C3Cff;
+        padding: 2px;
+        color: #f0f0f0;
+        transition: .4s;
+        transform: translateY(-1px);
+        cursor: pointer;
+        -webkit-user-select: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-drag: none;
+    }
+
+.included[b-4z03izg5iw] {
+    padding: 2px;
+    transition: .1s;
+    color: #63ff9b;
+    border: 1px solid #5eebae34;
+    background-color: #5eebae36;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.excluded[b-4z03izg5iw] {
+    padding: 2px;
+    transition: .1s;
+    color: #f42536f0;
+    border: 1px solid #f4253634;
+    background-color: #ff596736;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+}
+
+.box input[b-4z03izg5iw] {
+    width: 50%;
+    font-size: 16px;
+    padding-left: 6px;
+}

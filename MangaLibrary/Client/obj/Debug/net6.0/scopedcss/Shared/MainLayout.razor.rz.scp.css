@@ -1,0 +1,100 @@
+:root[b-wx88a4czl9] {
+    --color-white: #E3E3E3;
+    --color-gray: #2c2c2c;
+    --color-black: #16150E;
+    --color-text: #f0f0f0;
+    --color-background: #0D0C0C;
+    --color-secondary: #616161;
+    --color-accent: #724BE7;
+}
+
+.page[b-wx88a4czl9] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-wx88a4czl9] {
+    flex: 1;
+}
+
+.sidebar[b-wx88a4czl9] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+article[b-wx88a4czl9] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-row[b-wx88a4czl9] {
+    position: fixed;
+    background-color: var(--color-background);
+    border-bottom: 1px solid var(--color-secondary);
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-wx88a4czl9]  a, .top-row[b-wx88a4czl9]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-wx88a4czl9]  a:hover, .top-row[b-wx88a4czl9]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-wx88a4czl9]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-wx88a4czl9] {
+        display: none;
+    }
+
+    .top-row.auth[b-wx88a4czl9] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-wx88a4czl9]  a, .top-row[b-wx88a4czl9]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-wx88a4czl9] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-wx88a4czl9] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-wx88a4czl9] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-wx88a4czl9]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-wx88a4czl9], article[b-wx88a4czl9] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
